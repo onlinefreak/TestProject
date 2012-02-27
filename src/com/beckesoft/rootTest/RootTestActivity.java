@@ -18,7 +18,7 @@ public class RootTestActivity extends Activity {
            DataOutputStream os = new DataOutputStream(p.getOutputStream());
            os.writeBytes("echo 'Hi Mom!!!!!!!!' >/system/ciccio.txtn");
            os.writeBytes("exitn");
-           //os.flush();
+           os.flush();
            try {
               p.waitFor();
                    if (p.exitValue() != 255) {
