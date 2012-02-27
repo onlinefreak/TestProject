@@ -11,7 +11,6 @@ public class RootTestActivity extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //TextView tv = (TextView) findViewById(R.id.test);
         
         java.lang.Process p;
         try {
@@ -33,11 +32,9 @@ public class RootTestActivity extends Activity {
                       //tv.setText("Error");   
                    }
            } catch (InterruptedException e) {
-              // TODO Auto-generated catch block
               e.printStackTrace();
            }
         } catch (IOException e) {
-           // TODO Auto-generated catch block
            e.printStackTrace();
         }
     }
