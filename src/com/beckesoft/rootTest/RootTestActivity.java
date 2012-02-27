@@ -25,6 +25,10 @@ public class RootTestActivity extends Activity {
               p.waitFor();
                    if (p.exitValue() != 255) {
                       //tv.setText("OK!");
+                	   boolean b = true;
+                	   b = false;
+                	   if (b)
+                		   p.destroy();
                    }
                    else {
                       //tv.setText("Error");   
