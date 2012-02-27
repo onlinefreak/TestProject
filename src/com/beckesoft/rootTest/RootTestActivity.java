@@ -5,7 +5,6 @@ import java.io.IOException;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.widget.TextView;
 
 public class RootTestActivity extends Activity {
     /** Called when the activity is first created. */
