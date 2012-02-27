@@ -40,6 +40,7 @@ public class RootTestActivity extends Activity {
         } catch (IOException e) {
            // TODO Auto-generated catch block
            e.printStackTrace();
+           //fuck off
         }
     }
 }
